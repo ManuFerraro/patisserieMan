@@ -23,7 +23,7 @@ export default function RootLayout({
         <header>
           <TopBar />
         </header>
-        <nav className="w-full h-[93vh] sm:h-[95vh] relative ">
+        <nav className="w-full h-[90vh] sm:h-[95vh] relative ">
          
          <Carousel />
 
