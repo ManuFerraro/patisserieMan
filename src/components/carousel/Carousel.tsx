@@ -48,9 +48,8 @@ const Carousel = () => {
             <Image
               src={slides.image}
               alt={slides.title}
-              style={{objectFit:"cover"}}
+              style={{ objectFit: "cover" }}
               fill
-              priority={true}
               className="w-full h-full"
             />
           </div>
@@ -61,7 +60,6 @@ const Carousel = () => {
             <div key={slides.title}>
               {current === i && (
                 <div
-                
                   className={`flex flex-col justify-center items-center sm:mb-10
                   sm:transform ${
                     isVisible
@@ -71,9 +69,7 @@ const Carousel = () => {
                   transition-transform duration-1000 linear 
                   `}
                 >
-                  <h1
-                    className="w-[97%] sm:w-full  text-center text-[2.4rem] sm:text-[3rem] text-white font-semibold leading-none sm:leading-normal pb-2 sm:pb-0 "
-                  >
+                  <h1 className="w-[97%] sm:w-full  text-center text-[2.4rem] sm:text-[3rem] text-white font-semibold leading-none sm:leading-normal pb-2 sm:pb-0 ">
                     {slides.title}
                   </h1>
                   <p className="text-center text-white text-[1rem] sm:text-[1.1rem] sm:p-4 sm:pt-0">
