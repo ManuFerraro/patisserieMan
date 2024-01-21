@@ -32,4 +32,20 @@ export const onActiveValues: Props = [
         isActive: false,
         nameValues: 'codigoPostal'
     },
+    {
+        isActive: false,
+        nameValues: 'username'
+    },
+    {
+        isActive: false,
+        nameValues: 'email'
+    },
+    {
+        isActive: false,
+        nameValues: 'password'
+    },
+    {
+        isActive: false,
+        nameValues: 'confirmpassword'
+    },
 ]
