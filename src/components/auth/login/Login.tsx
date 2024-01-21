@@ -21,7 +21,7 @@ const Login = () => {
           <div className="h-[80px] w-full  flex justify-center items-center">
             <h2 className="text-[30px] font-prata">LOG IN</h2>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col sm:justify-center sm:items-center">
             <div className="h-[86px] sm:h-[92px] flex flex-col justify-around ">
               <p className={` text-[14px] font-nutitoSans font-bold text-formName`}>Email*</p>
               <input
@@ -42,7 +42,7 @@ const Login = () => {
               </div>
             </div>
           </div>
-          <div className="w-full flex justify-end items-center">
+          <div className="w-full flex justify-center lg:justify-end items-center">
             <p className="font-nunitoSans text-sm pt-1 text-formName font-semibold">¿Olvidaste tu contraseña?</p>
           </div>
           <div className="w-full h-[150px] sm:h-[130px] flex justify-center items-center ">
