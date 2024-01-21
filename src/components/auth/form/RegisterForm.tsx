@@ -35,7 +35,7 @@ const onSubmit = (values: any) => {
     <form onSubmit={handleSubmit(onSubmit)} className='w-[80%] mx-auto sm:mx-0 sm:w-full h-full flex flex-col '>
         {/* COL ONE */}
       <div className="flex flex-col sm:flex-row sm:justify-between gap-10 sm:gap-0">
-        <section className='flex-1 flex flex-col sm:border-r'>
+        <section className='flex-1 flex flex-col lg:border-r'>
             <h1 className="text-lg sm:text-xl font-normal mb-6 text-center font-prata">Información Personal</h1>
             <div className="grid grid-cols-1 gap-2 sm:gap-4  sm:w-[100%] h-[526px] sm:mx-auto">
                 <PersonalInformationRegister register={register} error={errors}/>
@@ -49,8 +49,8 @@ const onSubmit = (values: any) => {
         </section>
       </div>
       {/* COL TWO */}
-      <div className="w-full h-[200px] sm:h-[200px] flex flex-col sm:flex-row justify-center items-center">
-        <div className="flex-1"></div>
+      <div className="w-full h-[200px] sm:h-[200px] flex flex-col sm:flex-row justify-center items-center  pt-5">
+        <div className="sm:flex-1"></div>
         <div className="flex-1 flex flex-col h-full justify-around">
             <div className="w-[90%] xxs:w-[98%] sm:w-[80%] mx-auto mb-5 sm:mb-0">
               <p className='font-nutitoSans  text-[13px] sm:text-[14px] text-black font-semibold'>
