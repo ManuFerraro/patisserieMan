@@ -45,10 +45,10 @@ const Login = () => {
           <div className="w-full flex justify-end items-center">
             <p className="font-nunitoSans text-sm pt-1 text-formName font-semibold">¿Olvidaste tu contraseña?</p>
           </div>
-          <div className="w-full h-[220px] sm:h-[130px] flex justify-center items-center">
+          <div className="w-full h-[150px] sm:h-[130px] flex justify-center items-center ">
             <button className="w-full sm:w-[400px] h-[50px] bg-BgTop text-white font-nunitoSans">LOG IN</button>
           </div>
-          <div className="w-full h-[260px] flex flex-col justify-center items-center">
+          <div className="w-full h-[250px] sm:h-[260px] flex flex-col sm:justify-center items-center">
                 <p className="font-nunitoSans text-[15px] font-semibold text-black  p-5">NO TIENES CUENTA TODAVÍA?</p>
                 <button className="w-[120px] sm:w-[180px] h-[50px] bg-buttonLogin text-black border border-black">REGISTRATE</button>
           </div>
