@@ -21,12 +21,12 @@ const [showPassword, setShowPassword] = useState<boolean>(true)
           x
         </div>
         <form className="w-[85%] lg:w-[62%] h-full mx-auto flex flex-col">
-          <div className="h-[120px] w-full  flex justify-center items-end ">
+          <div className="h-[120px] xl:h-[116px] 2xl:h-[120px] w-full flex justify-center items-end ">
             <h1 className="w-[200px] text-center p-10 font-prata">
               TERESA BARBERENA
             </h1>
           </div>
-          <div className="h-[80px] w-full  flex justify-center items-center">
+          <div className="h-[80px] xl:h-[50px] 2xl:h-[80px] w-full flex justify-center items-center">
             <h2 className="text-[30px] font-prata">LOG IN</h2>
           </div>
           <div className="flex flex-col sm:justify-center sm:items-center">
@@ -72,7 +72,7 @@ const [showPassword, setShowPassword] = useState<boolean>(true)
               ¿Olvidaste tu contraseña?
             </p>
           </div>
-          <div className="w-full h-[150px] sm:h-[130px] flex justify-center items-center ">
+          <div className="w-full  h-[150px] sm:h-[130px] xl:h-[110px] 2xl:h-[130px] flex justify-center items-center ">
             <button className="w-full sm:w-[400px] h-[50px] bg-BgTop text-white font-nunitoSans">
               LOG IN
             </button>
