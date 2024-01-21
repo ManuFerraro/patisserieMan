@@ -34,7 +34,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <main className="w-[100%] h-[100%] border border-black overflow-hidden">
+    <main className="w-[100%] h-[100%] overflow-hidden">
       <section className="w-[100%] h-full flex relative z-10">
         {dataSourceCarousel.map((slides, i) => (
           <div

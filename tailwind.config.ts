@@ -17,6 +17,10 @@ const config: Config = {
         nutitoSans: ["var(--font-nunitoSans)"],
         prata: ["var(--font-prata)"],
       },
+      zIndex: {
+        '100': '100',
+        '80': '80',
+      }
     },
     colors: {
       BgTop: '#f2828d',
@@ -27,7 +31,8 @@ const config: Config = {
       red: '#FF0000',
       menuRes: '#4a4a4a',
       formName: '#525252',
-      inputBorder: '#999'
+      inputBorder: '#999',
+      buttonLogin: '#dbe4d5',
     },
     borderWidth: {
       DEFAULT: '1px',

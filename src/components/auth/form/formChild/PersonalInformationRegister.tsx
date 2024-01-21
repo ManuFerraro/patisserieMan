@@ -124,8 +124,8 @@ const PersonalInformationRegister = ({
         >
           <option value="dolores">Dolores</option>
           <option value="castelli">Castelli</option>
-          <option value="opcion2">Lezama</option>
-          <option value="opcion2">Chascomús</option>
+          <option value="lezama">Lezama</option>
+          <option value="chascomus">Chascomús</option>
         </select>
       </div>
       <div className="flex flex-col sm:flex-row">
