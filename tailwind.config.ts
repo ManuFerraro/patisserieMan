@@ -13,6 +13,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        nutitoSans: ["var(--font-nunitoSans)"],
+        prata: ["var(--font-prata)"],
+      },
     },
     colors: {
       BgTop: '#f2828d',
@@ -20,8 +24,15 @@ const config: Config = {
       blurMenu: '#444444',
       black: '#000000',
       white: '#FFFFFF',
-      red: '#FF0000'
+      red: '#FF0000',
+      menuRes: '#4a4a4a',
+      formName: '#525252',
+      inputBorder: '#999'
     },
+    borderWidth: {
+      DEFAULT: '1px',
+      '23': '0.5px'
+    }
   }, 
   plugins: [],
 };
